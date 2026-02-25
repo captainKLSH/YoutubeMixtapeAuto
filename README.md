@@ -3,7 +3,7 @@
 An end-to-end Python application that transforms a collection of audio files and a single image into a professional, seamless YouTube mixtape. Featuring AI-powered "Pro DJ" transitions, automatic timestamp generation, and high-speed video rendering.
 
 ## 📱 App Overview
-| <img src="image/page.png" width="600"> |  <img src="image/res.png" width="350"> |
+| <img src="image/page.png" width="400"> |  <img src="image/res.png" width="350"> |
 
 ## ✨ Features
 * **Pro DJ Transitions:** Uses High-Pass/Low-Pass filtering and constant power crossfading to ensure no volume dips or frequency clashing between songs.
