@@ -1,6 +1,6 @@
 # 🎵 YouTube Mixtape Pro-Automator
 
-An end-to-end Python application that transforms a collection of audio files and a single image into a professional, seamless YouTube mixtape. Featuring AI-powered "Pro DJ" transitions, automatic timestamp generation, and high-speed video rendering.
+An end-to-end Python application that transforms a collection of audio files and a single image into a professional, seamless YouTube mixtape. Featuring "Pro DJ" transitions, automatic timestamp generation, and high-speed video rendering.
 
 ## 📱 App Overview
 | <img src="image/page.png" width="400"> |  <img src="image/res.png" width="350"> |
@@ -97,3 +97,13 @@ streamlit run frontend/streamlit_app.py
 5. Wait for the progress bar to finish. Your video preview and YouTube description will appear below.
 
 6. Use the Download buttons to save your files.
+
+## 🛠 API Endpoints Summary
+| Endpoint|	Method|	Description|
+|-----|-----|-----|
+|/upload-track/|	POST	|Upload a single audio file|
+|/create-mixtape/|	POST	|Start background mixtape job|
+|/job/{job_id}|	GET	|Check job status|
+|/generate-description/	|POST	|Generate YouTube description|
+|/make-video/	|POST	|Combine image + audio → MP4|
+|/download/	|GET	|Download output files|
